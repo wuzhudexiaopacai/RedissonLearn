@@ -1,0 +1,9 @@
+# 测试环境不连接 Eureka，避免测试日志刷连接异常（分布式锁不依赖注册中心）
+eureka:
+  client:
+    enabled: false
+
+redisson:
+  address: redis://127.0.0.1:6379
+  database: 0
+  password:

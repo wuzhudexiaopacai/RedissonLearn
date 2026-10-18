@@ -1,0 +1,5 @@
+/redisson-common/target/
+/redisson-eureka-server/target/
+/redisson-inventory-service/target/
+/redisson-order-service/target/
+/.idea/
